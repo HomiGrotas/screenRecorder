@@ -6,4 +6,5 @@ HEIGHT = int(HEIGHT / 1.5)
 root.iconphoto(True, PhotoImage(file="mom_icon.png"))
 
 root.geometry(f"{WIDTH}x{HEIGHT}")
+root.minsize(600, 700)
 root.title("Record audio & video by Nadav Shani")
